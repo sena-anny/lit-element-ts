@@ -5,6 +5,7 @@
     <meta charset="utf-8" />
     <title>&lt;my-element> Demo</title>
     <script type="module" src="../build/my-element.js"></script>
+    <script type="module" src="../build/kj-element.js"></script>
     <style>
       p {
         border: solid 1px blue;
@@ -16,5 +17,9 @@
     <my-element>
       <p>This is child content</p>
     </my-element>
+    <kj-element>
+      <p slot="one">１番</p>
+      <div slot="two">２番</div>
+    </kj-element>
   </body>
 </html>
